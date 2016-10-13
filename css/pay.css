@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============支付界面================*/
+#address{
+	margin-top: 30px;
+	overflow: hidden;
+}
+#address div.title{
+	overflow: hidden;
+	border-bottom: 1px solid #f1f1f1;
+	color: #666;
+}
+#address div.title a{
+	margin-left: 20px;
+	/*====ie双边距===*/
+	_display:inline;
+}
+#address div.title a.return{
+	text-decoration: underline;
+	color: #0066CC;
+}
+#address div.title a:hover{
+	color: #EE0011;
+}
+#address div.address{
+	overflow: hidden;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+#address div.address dl{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#address div.address dl i{
+	color: red;
+}
+#address div.address dl dt{
+	margin-right: 10px;
+}
+#address div.address dl dd input{
+	border: 1px solid #d4d4d4;
+    height: 16px;
+    padding: 3px 2px;
+    width: 180px;
+}
+#address div.address dl dd input.post{
+	width: 50px;
+}
+#address div.address dl dd select{
+	border: 1px solid #d4d4d4;
+    height: 22px;
+    width: 90px;	
+    margin-right: 10px;
+}
+#address div.address dl dd select.send{
+	margin-right: 10px;
+	width: 184px;
+}
+#address div.address dl dd span.post em{
+	display: none;
+}
+#address div.address dl dd p{
+	margin-bottom: 5px;
+	width: 100%;
+}
+#pay_online{
+	overflow: hidden;
+	margin-top: 30px;
+}
+#pay_online div.title{
+	overflow: hidden;
+	border-bottom: 1px solid #f1f1f1;
+	color: #666;	
+}
+#pay_online div.title a{
+	line-height: 22px;
+}
+#pay_online div.bank p{
+	margin-top: 15px;
+	color: #666;
+}
+#pay_online div.bank p em{
+	color: #EE0011;
+}
+#pay_online div.bank .wrap-bank{
+	padding: 20px;
+    width: 850px;
+    padding-right: 0;
+    margin-left: 15px;
+    overflow: hidden;
+}
+#pay_online div.bank div.btn{
+	overflow: hidden;
+}
+#pay_online div.bank div.btn a{
+	width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border-top: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+}
+#pay_online div.bank div.btn a.first{
+	border-left: 1px solid #c4c4c4;
+}
+#pay_online div.bank div.btn a.cur{
+	background: #666;
+	color: #fff;
+}
+#pay_online div.bank div.btn a:hover{
+	text-decoration: none;
+}
+#pay_online div.bank div.banklist{
+	overflow: hidden;
+	border:1px solid #c4c4c4 ;
+	padding: 20px;
+
+}
+#pay_online div.bank div.banklist div.img{
+	overflow: hidden;
+	display: none;
+}
+#pay_online div.bank div.banklist div.img.cur{
+	display: block;
+}
+#pay_online div.bank div.banklist div.img a{
+	width: 139px;
+	height: 40px;
+	background: url(../img/pay/bank-img17.png) no-repeat;
+	border: 1px #ccc solid;
+	margin-right: 20px;
+}
+#pay_online div.bank div.banklist div.img a.zfb{
+	background: url(../img/pay/bank-img13.png) no-repeat;
+}
+#pay_online div.bank div.banklist div.img a.wx{
+	background: url(../img/pay/bank-img45.png) no-repeat;
+}
+#pay_online div.bank div.banklist div.img a.kq{
+	background: url(../img/pay/bank-img15.png) no-repeat;
+}
+#pay_online div.bank div.banklist div.img a.cft{
+	background: url(../img/pay/bank-img16.png) no-repeat;
+}
+#pay_online div.bank div.banklist div.img h3{
+	overflow: hidden;
+	width: 100%;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+#pay_online div.bank div.banklist div.img a input{
+	margin: 15px 10px;
+}
+div.cart div.pay a.checked:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+/*===================================*/
+#tip{
+	width: 400px;
+	height:247px;
+	padding-right: 200px;
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	top: 30%;
+	background: url(../img/bgzhifuchenggong.png) no-repeat;
+	border: 2px #FF5000 solid;
+	text-align: center;
+	display: none;
+}
+#tip h3{
+	overflow: hidden;
+	font-size: 28px;
+	color: #FF5000;
+}
+#tip p{
+	font-size: 14px;
+	margin: 20px 0;
+}
+#tip p span{
+	margin: 0 2px;
+	color: #EE0011;
+}
+#tip a{
+	margin-top: 80px;
+	padding: 10px 20px;
+	margin-right: 50px;
+	font-size: 18px;
+	background: #FF5000;
+	color: #FFFFFF;
+}
+#tip a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

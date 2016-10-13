@@ -1,0 +1,16 @@
+{
+	"id":0,"code":"200","data":[
+		{"id":0,"img":"img/menu/b28f57ef793d46c1a6472cf5350584da.jpg","good1":"T恤","good2":"衬衫","good3":"卫衣","good4":"针织衫","good5":"夹克","good6":"风衣","good7":"牛仔裤","good8":"休闲裤"},
+		{"id":0,"img":"img/menu/27e6b9136ff14bde9070ef63782b984c.jpg","good1":"T恤","good2":"衬衫","good3":"针织衫","good4":"连衣裙","good5":"卫衣","good6":"薄外套","good7":"牛仔裤","good8":"休闲裤"},
+		{"id":0,"img":"img/menu/7575185a1b574440ae5a63c697662db4.jpg","good1":"CK Jeans","good2":"LEE","good3":"Wrangler","good4":"ESPRIT","good5":"","good6":"","good7":"","good8":""}
+	],"data1":[
+		{"id":0,"img":"img/menu/e2202e68d3b04c338cb762686930a205.jpg","good1":"阿迪","good2":"迪士尼","good3":"百丽","good4":"小黄人","good5":"彪马","good6":"耐克"},
+		{"id":0,"img":"img/menu/ca7e7ce54912433694d7c1e2a90164d3.jpg","good1":"跑步鞋","good2":"学步鞋","good3":"板鞋","good4":"户外鞋","good5":"足球鞋","good6":"篮球鞋"},
+		{"id":0,"img":"img/menu/fe94c9db3bce4897abb62d7bab4255fb.jpg","good1":"儿童套装","good2":"外套","good3":"裤装","good4":"T恤","good5":"卫衣","good6":""},
+		{"id":0,"img":"img/menu/cb2ebafea04c46019fb4296ebc338edd.jpg","good1":"帽子","good2":"背包","good3":"袜子","good4":"","good5":"","good6":""}		
+	],"data2":[
+		{"id":0,"img":"img/menu/de240038d8544c788a779f996d1b80b8.jpg","good1":"手提/手包","good2":"单肩/斜跨","good3":"双肩","good4":"钱包","good5":"","good6":"","good7":"","good8":""},
+		{"id":0,"img":"img/menu/04c4cb86f3434dfe85c5bff4a12e077f.jpg","good1":"单肩/斜跨","good2":"手提/手包","good3":"双肩包","good4":"钱包","good5":"","good6":"","good7":"","good8":""},
+		{"id":0,"img":"img/menu/2368c274efb14ea082f625bf743c6f59.jpg","good1":"项链","good2":"项坠/吊坠","good3":"戒指/指环","good4":"手链/手镯","good5":"","good6":"","good7":"","good8":""}	
+	]
+}

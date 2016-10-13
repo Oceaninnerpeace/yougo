@@ -1,0 +1,559 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============二级菜单================*/
+#nav div.nav_down li.l.first{
+	position: relative;
+	z-index: 1000;
+	cursor: pointer;
+}
+#nav div.nav_down li.l.first #menu{
+	width: 198px;
+	height: 479px;
+	border: 1px #d1d3d4 solid;
+	border-top: 0;
+	position: relative;
+	background: #F3F3F3;
+	z-index: 10;	
+	display: none;
+}
+#nav div.nav_down li.l.first #menu a{
+	font-size: 12px;
+	font-weight: 100;
+}
+#nav div.nav_down li.l.first #menu ul{
+	height: 476px;
+	width: 198px;
+	border-bottom: 1px #d1d3d4 solid;
+	border-top: 2px #000 solid ;
+}
+#nav div.nav_down li.l.first #menu ul li{
+	height: 44px;
+	width: 178px;
+	padding: 12px 10px;
+}
+#nav div.nav_down li.l.first #menu ul li.cur{
+	background: #666;
+	color: #fff;
+}
+#nav div.nav_down li.l.first #menu ul li.cur a{
+	color: #fff;
+}
+#nav div.nav_down li.l.first #menu ul li.cur i.iconn{
+	background: url(../img/indexnav2img_01.jpg) no-repeat; 
+}
+#nav div.nav_down li.l.first #menu ul li i.iconn{
+	width: 26px;
+	height: 20px;
+	background: url(../img/indexnav2img_01.jpg) no-repeat;
+}
+#nav div.nav_down li.l.first #menu ul li a{
+	color: #666;
+}
+#nav div.nav_down li.l.first #menu ul li h3{
+	margin-bottom: 5px;
+}
+#nav div.nav_down li.l.first #menu ul li p{
+	padding-left: 26px;
+	line-height: 16px;
+}
+#nav div.nav_down li.l.first #menu ul li h3 a{
+	color: #000;
+	line-height: 19px;
+}
+#nav div.nav_down li.l.first #menu div.menu_child{
+	width: 128px;
+	height: 478px;
+	padding: 0 10px;
+	border: 1px #d1d3d4 solid ;
+	position: absolute;
+	left: 198px;
+	top: 0;
+	display: none;
+	background: #fff;
+	z-index: 200;
+}
+/*======================商品列表==========================*/
+#list-content{
+	overflow: hidden;
+	width: 100%;
+	background:#fff;
+}
+#list-content #choose{
+	overflow: hidden;
+}
+#list-content #choose div.cls{
+	line-height: 20px;
+	height: 23px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+#list-content #choose div.cls span.cls{
+	font-size: 16px;
+}
+#list-content #choose div.cls div.nvz{
+	height: 20px;
+	position: relative;
+	margin: 0 8px;
+	border: 1px #fff solid;
+	z-index: 1;
+	background: #fff;
+}
+#list-content #choose div.cls div.nvz a.nvz{
+	display: block;
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px #fff solid;
+}
+#list-content #choose div.cls div.nvz a:hover{
+	text-decoration: none;
+	color: #EE0011;
+}
+#list-content #choose div.cls div.nvz a i{
+	display: inline-block;
+	width: 12px;
+	height: 5px;
+	background: url(../img/filter-sprite.png) no-repeat -113px -154px;
+	margin-left: 5px;
+}
+#list-content #choose div.cls div.nvz div.goodscls{
+	position: absolute;
+	left: 0;
+	display: none;
+	top: 20px;
+	z-index:-1;
+	width: 140%;
+	padding-left: 5px;
+	height: 190px;
+	margin-left: -1px;
+	border: 1px #D1D3D4 solid;
+	overflow-y: auto;
+	background: #fff;
+}
+#list-content #choose div.cls div.nvz div.goodscls a{
+	display: block;
+}
+#list-content #choose div.brand{
+	width: 1188px;
+	height: auto;
+	border: 1px #D1D3D4 solid;
+}
+#list-content #choose div.brand dl{
+	background: #f6f6f6;
+	width: 1188px;
+	height: 33px;
+	border-bottom: 1px #ccc dotted;
+}
+#list-content #choose div.brand dl a:hover{
+	text-decoration: none;
+}
+#list-content #choose div.brand dl dt{
+	width: 80px;
+	padding-top: 5px;
+	height: 20px;
+	padding-right: 18px;
+	text-align: right;
+}
+#list-content #choose div.brand dl dd{
+	background: #fff;
+	padding: 4px 0;
+	width: 1090px;
+	height: 25px;
+}
+#list-content #choose div.brand dl dd ul{
+	width: 940px;
+	height: 100%;
+	margin-left: 13px;
+}
+#list-content #choose div.brand dl dd ul li{
+	width: 145px;
+	height: 100%;
+}
+#list-content #choose div.brand dl dd ul li a{
+	line-height: 25px;
+}
+#list-content #choose div.brand dl dd ul li i{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	border: 1px #ccc solid;
+	margin-top: 6px;
+	margin-right: 4px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	background: 0;
+}
+#list-content #choose div.brand dl dd ul li i.dot{
+	background: #EE0011 url(../img/filter-sprite.png) no-repeat -92px -325px;
+}
+#list-content #choose div.brand dl dd a.checked{
+	width: 46px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	background:#E1E1E1;	
+}
+#list-content #choose div.brand dl dd a.checked i{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 5px 6px 0 0;
+	background: url(../img/filter-sprite.png) no-repeat -56px -197px;
+}
+#list-content #choose div.brand dl dd a.more{
+	width: 46px;
+	height: 20px;
+	line-height: 20px;
+}
+#list-content #choose div.brand dl dd a.more i{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 5px  0 0 5px;
+	background: url(../img/filter-sprite.png) no-repeat -113px -154px;
+}
+#list-content #choose div.brand dl dd input{
+	width: 46px;
+	height: 20px;
+	border: 0;
+	background: url(../img/filter-sprite.png) no-repeat 0 -345px;
+}
+#list-content #choose div.brand dl.brand{
+	height: 68px;
+	margin-top: 1px;
+}
+#list-content #choose div.brand dl.brand dt{
+	height: 60px;
+	line-height: 60px;
+}
+#list-content #choose div.brand dl.brand dd{
+	height: 60px;
+}
+#list-content #choose div.brand dl.brand dd ul li{
+	width: 86px;
+	height: 60px;
+	padding-right: 5px;
+}
+#list-content #choose div.brand dl.brand dd ul li a{
+	width: 86px;
+	height: 50px;
+}
+#list-content #choose div.brand dl.brand dd ul li a img{
+	margin-top: 10px;
+	border-right: 1px #D1D3D4 solid;
+}
+#list-content #choose div.brand dl.style{
+	height: 35px;
+	margin-top: 1px;
+}
+#list-content #choose div.brand dl.style dt{
+	height: 27px;
+	line-height: 32px;
+}
+#list-content #choose div.brand dl.style dd{
+	height:27px;
+}
+#list-content #choose div.brand dl.style dd ul li{
+	padding-left: 20px;
+}
+#list-content #choose div.brand dl.style dd ul li b{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 5px  0 0 5px;
+	background: url(../img/filter-sprite.png) no-repeat -113px -154px;
+}
+
+#list-content #choose div.rank{
+	width: 1188px;
+	height: 24px;
+	border: 1px #d7d3d4 solid;
+	padding: 5px 0;
+	margin-top: 10px;
+	background: #F5F5F5;
+	line-height: 24px;
+}
+#list-content #choose div.rank span.left{
+	padding-left: 25px;
+}
+#list-content #choose div.rank span.left a{
+	width: 50px;
+	height: 23px;
+	margin-right: 8px;
+	background: #D1D3D4;
+	text-align: center;
+}
+#list-content #choose div.rank span.left a.first{
+	background-image:none ;
+	background: #EE0011;
+	color: #fff;
+}
+#list-content #choose div.rank span.left a i{
+	display: inline-block;
+	width: 7px;
+	height: 10px;
+	background: url(../img/resprite12.png) no-repeat -36px -30px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#list-content #choose div.rank p input{
+	width: 37px;
+	height: 21px;
+}
+#list-content #choose div.rank span.center{
+	color: #EE0011;
+}
+#list-content #choose div.rank span.center i{
+	display: inline-block;
+	float: left;
+	margin: 5px ;
+	width: 15px;
+	height: 15px;
+	background: url(../img/resprite12.png) no-repeat -34px -197px;
+}
+#list-content #choose div.rank span.right{
+	padding-right: 20px;
+}
+#list-content #choose div.rank span.right b{
+	color:#EE0011;
+	margin: 0 10px;
+}
+#list-content #choose div.rank span.right a{
+	width: 22px;
+	height: 20px;
+	margin: 0 10px;
+	background: #fff url(../img/resprite.png) no-repeat center -222px;
+	border: 1px #F3F3F3 solid;
+}
+#list-content #choose div.rank span.right a.prev{
+	background-position-y:-283px ;
+}
+/*=============good-list===================*/
+#goods{
+	overflow: hidden;
+	margin-top: 20px;
+}
+#goods ul.goods li dl{
+	width: 232px;
+	height: 322px;
+	margin-right: 5px;
+}
+#goods ul.goods li dl dt{
+	position: relative;
+	width: 230px;
+	height: 254px;
+	border: 1px #D1D3D4 solid;
+	overflow: hidden;
+}
+#goods ul.goods li dl dt b{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 16px;
+	width: 222px;
+	background: url(../img/sf-mark.png) no-repeat 0 -48px;
+	color: #fff;
+	line-height: 16px;
+	padding-left: 10px;
+}
+#goods ul.goods li dl dd{
+	width: 226px;
+	height: 60px;
+	padding:6px 0 6px 6px;
+	color: #EE0011;
+}
+#goods ul.goods li dl dd strong{
+	font-size: 14px;
+	color: #EE0011;
+}
+#goods ul.goods li dl dd del{
+	margin: 0 10px;
+	color: #666;
+}
+/*==============search================*/
+#search{
+	overflow: hidden;
+	background: #fff;	
+}
+#search div.page{
+	padding-left: 827px;
+	height: 40px;
+	line-height: 40px;
+    padding-top: 40px
+}
+#search div.page a{
+	width: 35px;
+	height: 40px;
+	border: 1px #ccc solid;
+	text-align: center;
+}
+#search div.page a.cur{
+	background: #D1D3D4;
+}
+#search div.page a.last{
+	width: 75px;
+	height: 40px;
+	margin-right: 10px;
+}
+#search div.page a:hover{
+	text-decoration: none;
+}
+#search div.page span input{
+	width: 49px;
+	height: 24px;
+	margin-left: 2px;
+}
+#search div.page span input.txt{
+	width: 30px;
+	height: 16px;
+	border: 1px #D1D3D4 solid;
+}
+#search p.rec{
+	width: 1170px;
+	height: 22px;
+	padding: 0 0 8px 20px ;
+	background: url(../img/quan_icon.gif) no-repeat 0 0;
+}
+#search p.brand_name{
+	border-top: 1px dotted #cbcbcb;
+    padding-top: 5px;
+    height: 60px;
+}
+#search div.search{
+	width: 475px;
+	height: 28px;
+	margin: 15px ;
+	margin-left: 394px;
+	border: 1px #ccc solid;
+}
+#search div.search input{
+	width: 375px;
+	height: 28px;
+	border:0 ;
+}
+#search div.search a{
+	height: 28px;
+	width: 100px;
+	background: url(../img/sf-ico.jpg) no-repeat 0 -299px;
+}
+
+/*===============guide==================*/
+#guide{
+	height: 509px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+#guide div.title{
+	height: 32px;
+	border-bottom: 3px #000 solid;
+	line-height: 32px;
+	font-size: 18px;
+	color: #000;
+}
+#guide div.guide{
+	width: 1188px;
+	height: 454px;
+	border: 1px #D1D3D4 solid;
+	padding-top: 18px;
+	position: relative;
+	background: #fff;
+}
+#guide div.guide a.btn_left{
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	top: 129px;
+	left: 12px;
+	background: url(../img/sf-ico.png) no-repeat  0 -70px;
+}
+#guide div.guide a.btn_right{
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	top: 129px;
+	right: 12px;
+	background: url(../img/sf-ico.png) no-repeat  -12px -70px;	
+}
+#guide div.guide div.guide_logo{
+	width: 1081px;
+	height: 245px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#guide div.guide div.guide_logo ul.guide_logo{
+	width: 2161px;
+	height: 244px;
+	border-top: 1px #D1D3D4 solid;
+	border-left: 1px #D1D3D4 solid;
+}
+#guide div.guide div.guide_logo ul.guide_logo li{
+	width: 1080px;
+	height: 244px;
+}
+#guide div.guide div.guide_logo ul.guide_logo li a{
+	float: left;
+}
+#guide div.guide ul.guide{
+	width: 1188px;
+	margin-top: 20px;
+}
+#guide div.guide ul.guide li{
+	width: 518px;
+	height: 29px;
+	margin-bottom: 17px;
+	margin-left: 37px;
+	line-height: 30px;
+	border-bottom: 1px #D1D3D4 dashed;
+	float: left;
+}
+#guide div.guide ul.guide li a{
+	margin-right: 20px;
+}
+#guide div.guide ul.guide li a.first{
+	font-size: 14px;
+	font-weight: bold;
+	color: #3e3e3e;
+}
+#guide div.guide ul.guide li a.r{
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+/*===============gotop=================*/
+#goTop{
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99999;
+	background:#E5E5E5 url(../img/filter-sprite.png) no-repeat 8px -373px ;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

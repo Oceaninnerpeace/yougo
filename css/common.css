@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body,html,form,p,a,img,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li,table,td,tr,em{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px; color: #666666;font-family: "微软雅黑";
+}
+em,i{font-style: normal;}
+img{
+	display: block;
+	/*ie 图片边框*/
+	border-style:none; 
+}
+input{
+	outline:red;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
+a:hover{
+	text-decoration: underline;
+	color: #ee0011;
+}
+.w{
+	width: 1190px;
+	margin: 0 auto;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+

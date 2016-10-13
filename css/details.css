@@ -1,0 +1,619 @@
+@charset "utf-8";
+/* CSS Document */
+/*==========details==============*/
+#details{
+	overflow: hidden;
+	background:#fff ;
+}
+#details div.title{
+    height: 22px;
+    line-height: 22px;
+    margin: 3px auto;
+}
+#details div.title a{
+	color: #36C;
+}
+#details div.title a:hover{
+	color: #EE0011;
+	text-decoration: none;
+}
+#details div.title span.l{
+	margin: 0 2px;
+}
+#details div.title span.first{
+	margin: 0;
+}
+#details div.magnify{
+	overflow: hidden;
+}
+#details div.magnify div.img.l{
+	width: 482px;
+}
+#details div.magnify div.img.l div.pic-s{
+	border: 1px solid #eaeaea;
+	width: 480px;
+	height: 480px;
+	position: relative;
+}
+#details div.magnify div.img.l div.pic-s img{
+	width: 480px;
+	height: 480px;
+}
+#details div.magnify div.img.l div.pic-s div.mark{
+	width: 480px;
+	height: 480px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	cursor: crosshair;
+}
+#details div.magnify div.img.l div.fdj{
+	width: 240px;
+	height: 240px;
+	background: #000;
+	opacity: 0.3;
+	z-index: 1;
+	filter: alpha(opacity=30);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#details div.magnify div.img.l div.pic-s a{
+	position: absolute;
+	width: 101px;
+    height: 19px;
+    background: #fff url(../img/icons_goods.png) 0 -93px no-repeat;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+}
+#details div.magnify div.img.l div.pic-l{
+	position: absolute;
+	width: 480px;
+	height: 450px;
+	overflow: hidden;
+	left: 500px;
+	top: 0;
+	border: 1px #ccc solid;
+	z-index: 10;
+	display: none;
+}
+#details div.magnify div.img.l div.pic-l img{
+	display: block;
+	width: 960px;
+	height: 900px;
+}
+#details div.magnify div.img.l ul.pic-list{
+    width: 490px;
+    padding-top: 11px;
+    overflow: hidden;	
+}
+#details div.magnify div.img.l ul.pic-list li{
+    width: 69px;
+    padding-top: 5px;
+}
+#details div.magnify div.img.l ul.pic-list li.cur{
+	background: url(../img/new_dpico.png) no-repeat 29px -257px;
+}
+#details div.magnify div.img.l ul.pic-list li img{
+	padding: 2px;
+    border: 1px solid #ddd;
+    width: 60px;
+    height: 60px;
+}
+#details div.magnify div.img.l ul.pic-list li.cur img{
+	border-color: #e60012;
+}
+#details div.magnify div.img.l p.num{
+	overflow: hidden;
+	padding: 5px 0;
+}
+#details div.magnify div.img.l p.num a{
+	height: 16px;
+	overflow: hidden;
+	margin-right: 16px;
+}
+#details div.magnify div.img.l p.num a:hover{
+	text-decoration: none;
+}
+#details div.magnify div.img.l p.num a i{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background: url(../img/new_dpico.png) no-repeat 0 -144px;
+	margin: 1px 2px;
+}
+#details div.magnify div.img.l p.num a.save i{
+	background-position-y: -167px;
+}
+#details div.center{
+	width: 490px;
+	margin-left: 18px;
+	overflow: hidden;
+}
+#details div.center h3{
+	overflow: hidden;
+	line-height: 28px;
+	font-size: 16px;
+}
+#details div.center p.more{
+	height: 31px;
+}
+#details div.center p.more a{
+	text-decoration: underline;
+	color: #36c;
+	line-height: 31px;
+	font-size: 14px;
+}
+#details div.center p.price{
+	color: #aaa;
+	height: 49px;
+	padding: 11px 0 20px 0;
+}
+#details div.center p.price span{
+	font-size: 24px;
+	color: #EE0011;
+}
+#details div.center p.price span b{
+	font-size: 32px;
+}
+#details div.center p.price del{
+	margin: 0 8px;
+}
+#details div.center p.pj{
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+}
+#details div.center p.pj span i{
+	height: 13px;
+    line-height: 13px;
+    margin: 8px 8px 0 0;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -99em;
+    width: 62px;
+    display: inline-block;
+    background: url(../img/star_show_small.png) no-repeat 0 -87px;
+}
+#details div.center p.pj span em{
+	color: #e60012; 
+	margin-right: 5px;
+}
+#details div.center p.pj span a{
+	    color: #36C;
+}
+#details div.center p.pj a.r{
+	height: 48px;
+	padding-left: 22px;
+	background: url(../img/new_dpico.png) no-repeat 0 -180px;
+}
+#details div.center div.size{
+	padding: 22px 0 0 10px;
+    overflow: hidden;
+    margin-top: 5px;
+    background: #F8F8F8;
+    position: relative;
+}
+#details div.center div.size p.color{
+	overflow: hidden;	
+}
+#details div.center div.size p.color span{
+	width: 24px;
+	height: 18px;
+}
+#details div.center div.size p.color a{
+	padding: 1px;
+    margin-left: 8px;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+#details div.center div.size p.color a i{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 12px;
+	height: 12px;
+	background: 0;
+}
+#details div.center div.size p.color a.cur{
+	border-color:#e60012 ;
+}
+#details div.center div.size p.color a.cur i{
+	background: url(../img/new_dpico.png) no-repeat -2px -122px;
+}
+#details div.center div.size p.color a img{
+	width: 40px;
+	height: 40px;
+}
+#details div.center div.size p.size{
+	overflow: hidden;
+	width: 320px;
+	margin-top: 10px;
+}
+#details div.center div.size p.size span{
+	width: 24px;
+	height: 18px;
+}
+#details div.center div.size p.size a{
+	height: 18px;
+	width: 24px;
+	padding: 0 4px;
+	margin: 0 10px 10px 8px;
+	border: 1px #ddd solid;
+	background: #fff;
+	text-align: center;
+	position: relative;
+}
+#details div.center div.size p.size a i{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 12px;
+	height: 12px;
+	background: 0;	
+}
+#details div.center div.size p.size a.cur{
+	border-color:#e60012  ;
+}
+#details div.center div.size p.size a.cur i{
+	background: url(../img/new_dpico.png) no-repeat -2px -122px;	
+}
+#details div.center div.size p.size a:hover{
+	text-decoration: none;
+}
+#details div.center div.size p.nums{
+	overflow: hidden;
+	width: 478px;
+}
+#details div.center div.size p.nums span{
+	width: 24px;
+	height: 25px;
+	margin-right: 8px;
+}
+#details div.center div.size p.nums a{
+	width: 11px;
+	height: 11px;
+	margin-top: 3px;
+	background: url(../img/jiajian.gif) no-repeat -11px -11px ;
+}
+#details div.center div.size p.nums a.jian{
+	background-position: -11px 0;
+}
+#details div.center div.size p.nums a.jia{
+	margin-right: 5px;
+}
+#details div.center div.size p.nums input{
+	width: 25px;
+    margin:0 8px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+}
+#details div.center div.size div.code{
+	position:absolute;
+	bottom: 0;
+	right: -5px;
+	overflow: hidden;
+    right: -5px;
+    width: 108px;	
+}
+#details div.center div.size div.code img{
+	width: 90px;
+	height: 90px;
+}
+#details div.center div.size p.buy{
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#details div.center div.size p.buy a.buy{
+	background: #fff;
+    color: #e60012;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    width: 121px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #d90d0d;
+    margin-right: 10px;
+}
+#details div.center div.size p.buy a.cart{
+	background: #e60012;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    width: 147px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #d90d0d;
+    margin-right: 10px;
+}
+#details div.center div.size p.buy a:hover{
+	text-decoration: none;
+}
+#details div.center p.send{
+	overflow: hidden;
+	line-height: 18px;
+	margin: 4px 10px;
+	color: #999;
+}
+#details div.center p.send em{
+	color: #666;
+}
+#details div.center dl.promise{
+	height: 48px;
+	overflow: hidden;
+	margin-top: 8px;
+}
+#details div.center dl.promise dt{
+	width: 62px;
+    background: 0;
+    padding-right: 0;
+    padding: 6px 10px;
+    line-height: 18px;
+    color: #aaa;
+    font-weight: bold;
+}
+#details div.center dl.promise dd{
+	overflow: hidden;
+	padding: 5px 0 6px 0;
+}
+#details div.center dl.promise dd a{
+	width: 88px;
+	height: 22px;
+	color: #999;
+	margin-left: 44px;
+	line-height: 22px;	
+}
+#details div.center dl.promise dd a:hover{
+	color: #EE0011;
+	text-decoration: none;
+}
+#details div.center dl.promise dd a i{
+	float: left;
+	width: 20px;
+	height: 22px;
+	margin-right: 2px;
+	background: url(../img/new_dpico.png) no-repeat 0 -210px;
+}
+#details div.center dl.promise dd a.tui i{
+	background-position-x: -22px;
+}
+#details div.center dl.promise dd a.bu  i{
+	background-position-x: -44px;
+}
+
+#details div.look{
+	width: 185px;
+	height: 575px;
+	color: #999;
+}
+#details div.look p.title{
+	height: 18px;
+    overflow: hidden;
+    position: relative;
+    line-height: 18px;
+    text-align: center;
+}
+#details div.look div.pic{
+	height: 520px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 23px 0 22px;
+}
+#details div.look div.pic ul{
+	overflow: hidden;
+	width: 140px;
+}
+#details div.look div.pic ul li{
+	height: 520px;	
+	width: 140px;
+}
+#details div.look div.pic ul li dl{
+	overflow: hidden;
+	height: 174px;
+}
+#details div.look div.pic ul li dl dt{
+	width: 140px;
+	height: 140px;
+}
+#details div.look div.pic ul li dl dt img{
+	width: 140px;
+	height: 140px;
+}
+#details div.look div.pic ul li dl dd{
+	height: 20px;
+}
+#details div.look p.btn{
+	overflow: hidden;
+    padding: 0 25px;
+}
+#details div.look p.btn a{
+	height: 27px;
+    width: 27px;
+    background:url(../img/new_dpico.png) no-repeat -226px -157px ;
+    margin: 0 15px;
+}
+#details div.look p.btn a.next{
+	background-position: -226px -184px;
+}
+/*================推荐====================*/
+#reco{
+	padding-top: 20px;
+	background: #fff;
+}
+#reco div.w{
+	position: relative;
+	overflow: hidden;
+	width: 1188px;
+	border: 1px #D1D3D4 solid;
+}
+#reco p.l{
+	color: #666;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 10px;
+	line-height: 21px;
+}
+#reco p.r{
+	margin-right: 10px;
+	color: #aaa;
+	line-height: 21px;
+}
+#reco a.next{
+	width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    background: url(../img/sf-ico.png) no-repeat -13px -71px;
+}
+#reco a.prev{
+	width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 124px;
+    left: 5px;
+    background: url(../img/sf-ico.png) no-repeat 0 -71px;
+}
+#reco div.goods{
+	height: 295px;
+	width: 1140px;
+	margin-left: 25px;
+	overflow: hidden;
+}
+#reco div.goods ul{
+	width: 4560px;
+}
+#reco div.goods ul li{
+	float: left;
+	width: 1140px;
+	height: 295px;
+}
+#reco div.goods ul li dl{
+	float: left;
+	width: 176px;
+	padding-left: 8px;
+	padding-right: 5px;
+	overflow: hidden;
+}
+#reco div.goods ul li dl dt img{
+	width: 160px;
+	height: 160px;
+}
+#reco div.goods ul li dl dd a{
+	height: 42px;
+}
+#reco div.goods ul li dl dd p.price{
+	color: #EE0011;
+	font-size: 14px;
+}
+#reco div.goods ul li dl dd p.price em{
+	font-size: 18px;
+	color: #EE0011;
+	margin-right: 5px;
+}
+#reco div.goods ul li dl dd p.price del{
+	color: #aaa;
+}
+/*================goods-details==================*/
+#goods_details{
+	padding-top: 20px;
+	background: #fff;
+	overflow: hidden;
+}
+#goods_details div.w{
+	position: relative;
+}
+#goods_details div.left{
+	width: 970px;
+	overflow: hidden;
+}
+#goods_details div.left ul.title{
+	position: relative;
+	width: 970px;
+	overflow: hidden;
+	border-bottom: 2px #c01 solid;
+	z-index: 100;
+	background: #fff;
+}
+#goods_details div.left ul.title li{
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	margin-left: -1px;
+	width: 102px;
+	cursor: pointer;
+}
+#goods_details div.left ul.title li.first{
+	margin: 0;
+}
+#goods_details div.left ul.title li.cur{
+	background: #c01;
+	color: #fff;
+}
+#goods_details div.left ul.contact{
+	position: relative;
+	overflow: hidden;	
+}
+#goods_details div.left ul.contact li{
+	display: none;
+	overflow: hidden;
+}
+#goods_details div.left ul.contact p{
+	padding-left: 102px;
+}
+#goods_details div.right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+	width: 185px;
+}
+#goods_details div.right p.title{
+	font-weight: bold;
+	color: #666;
+	padding-left: 10px;
+	border: 1px #D1D3D4 solid;
+	line-height: 30px;
+}
+#goods_details div.right ul.goods{
+	border: 1px #D1D3D4 solid;
+	border-top: 0;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+#goods_details div.right ul.goods dl{
+	margin-bottom: 20px;
+}
+#goods_details div.right ul.goods dl dd a{
+	height: 42px;
+}
+#goods_details div.right ul.goods dl dd p.price{
+	color: #EE0011;
+	font-size: 14px;
+}
+#goods_details div.right ul.goods dl dd p.price em{
+	font-size: 18px;
+	color: #EE0011;
+	margin-right: 5px;
+}
+#goods_details div.right ul.goods dl dd p.price del{
+	color: #aaa;
+}
+
+
+
+

@@ -1,0 +1,25 @@
+{
+	"id":"yifu","code":"200","data":[
+		{
+			"id":"0","top":-210,"title":"运动","class1":"运动鞋","class2":"T恤","class3":"运动包","class4":"长裤"
+		},
+		{
+			"id":"1","top":-184,"title":"户外","class1":"冲锋衣","class2":"T恤","class3":"皮肤衣","class4":"休闲裤"		
+		},		
+		{
+			"id":"2","top":-30,"title":"女鞋</a>/<a href='#'>男鞋","class1":"浅口鞋","class2":"秋季新品","class3":"休闲男鞋","class4":""		
+		},
+		{
+			"id":"3","top":-108,"title":"男装</a>/<a href='#'>女装","class1":"卫衣","class2":"T恤","class3":"连衣裙","class4":"牛仔裤"		
+		},
+		{
+			"id":"4","top":-158,"title":"童装 </a>/<a href='#'>童鞋</a> /<a href='#'>包配","class1":"凉鞋","class2":"T恤","class3":"跑步鞋","class4":"书包"		
+		},
+		{
+			"id":"5","top":-133,"title":"箱包 </a>/<a href='#'> 配饰","class1":"女包","class2":"男包","class3":"饰品","class4":""	
+		},	
+		{
+			"id":"6","top":-3,"title":"首尔站","class1":"海外直邮","class2":"搭配购"	,"class3":"","class4":""	
+		}		
+	]
+}

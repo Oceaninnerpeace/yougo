@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+.w{
+	width: 990px;
+	margin: 0 auto;
+}
+#header{
+	height: 32px;
+	line-height: 32px;
+	background:url(../img/sf-ico.jpg) repeat-x left -258px;	
+}
+#header .w{
+	height: 30px;
+}
+#header ul.left li{
+	height: 30px;
+	width: 98px;
+	border-left: 1px #e9e9e9 solid;
+	border-right: 1px #e9e9e9 solid;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+}
+#header ul.left li:hover span{
+	font-weight: 600;
+	color: #EE0011;
+}
+#header ul.left li a:hover{
+	text-decoration: none;
+}
+#header ul.left li.last{
+	position: relative;
+	border-left: 0;
+	z-index: 200;
+	width: 100px;
+}
+#header ul.left li.last span{
+	display: block;
+	z-index: 200;
+	width: 100px;	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#header ul.left li.last i{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background: url(../img/sf-ico.png) no-repeat -185px -840px;
+}
+#header ul.left li.last em{
+	display: inline-block;
+	width: 8px;
+	height: 13px;
+	background: url(../img/sf-ico.png) no-repeat -152px -80px;
+	margin-right:4px;
+}
+#header ul.left li.last div.app{
+	display: none;
+	z-index:10;
+	width: 240px;
+	height: 120px;
+	padding: 20px;
+	position: absolute;
+	top: 30px;
+	left: -1px;
+	background: #fff;
+	border: 1px #E9E9E9 solid;
+	font-size: 18px;
+}
+#header ul.center{
+	overflow: hidden;
+	height: 14px;
+	line-height: 14px;
+	border-right: 1px #666 solid;
+	margin-top:9px ;
+	padding-right: ;
+}
+#header ul.center li{
+	margin: 0 19px;
+	cursor: pointer;
+}
+#header ul.center li a{
+	color: #EE0011;
+}
+#header ul.center li a:hover{
+	text-decoration: none;
+}
+#header ul.right{
+	margin-left: 10px;
+}
+#header ul.right li{
+	position: relative;
+	height: 30px;
+	text-align: center;
+}
+#header ul.right li.par i{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background: url(../img/sf-ico.png) no-repeat -185px -840px;
+}
+#header ul.right li.first{
+	width: 89px;
+}
+#header ul.right li.notice{
+	width: 65px;
+}
+#header ul.right li.more{
+	width: 65px;
+}
+#header ul.right li.first a.first{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 89px;
+	height: 30px;
+	z-index: 20;
+}
+#header ul.right li.first p{
+	z-index: 10;
+	width: 89px;
+	height: 30px;
+	position: absolute;
+	border: 1px #E9E9E9 solid;
+	top: 29px;
+	display: none;
+	left: 0px;
+	background: #fff;
+}
+#header ul.right li.notice a.first{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 65px;
+	height: 30px;
+	z-index: 20;
+}
+#header ul.right li.notice ul{
+	z-index: 10;
+	position: absolute;
+	top: 29px;
+	width: 260px;
+	left: -195px;
+	border: 1px #E6E6E6 solid;
+	background: #fff;
+	display: none;
+}
+#header ul.right li.notice ul li{
+	padding-left: 10px;
+}
+#header ul.right li.more a.first{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 65px;
+	height: 30px;	
+	z-index: 20;
+}
+#header ul.right li.more p{
+	z-index: 10;
+	position: absolute;
+	top: 29px;
+	left: -41px;
+	padding-left: 5px;
+	border: 1px #E6E6E6 solid;
+	width: 100px;
+	display: none;
+	background: #fff;
+}
+#logo{
+	overflow: hidden;
+	height:70px;
+}
+#logo dl{
+	height: 32px;
+	margin: 17px 0;	
+	padding: 2px 0;
+}
+#logo dl dt{
+	height: 36px;
+	padding-right: 30px;
+	margin-right:35px ;
+	border-right: 1px #e6e6e6 solid;
+}
+#logo dl dd{
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+}
+#banner{
+	position: relative;
+	height: 553px;
+	border-top:1px #e6e6e6 solid;
+	background: url(../img/683ca95409bc444e8fe7abf5381181e8.jpg) no-repeat center;
+}
+#banner div.w{
+	position: relative;
+}
+#banner a.mark{
+	position: absolute;
+	display: block;
+	height: 553px;
+	width: 100%;
+}
+
+#banner form{
+	position: relative;
+	z-index: 1;
+	width: 350px;
+	height: 425px;
+	background: #fff;
+	right: 0;
+	top:50px;
+	padding:25px 15px;
+	padding-bottom: 0;
+}
+#banner form div.login{
+	height: 40px;
+	border-bottom: 1px #f3f3f3 solid;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#banner form div.login a{
+	display: inline-block;
+	width: 123px;
+	height: 40px;
+	background: #F3F3F3;
+	color:#313131;
+}
+#banner form div.login a.current{
+	background: #333;
+	color:#fff;	
+}
+#banner form div.login a:hover{
+	color: #ee0011;
+}
+#banner form div.user{
+	width: 311px;
+	height: 36px;
+	border: 1px #e2e2e2 solid;
+	margin-left: 18px;
+	margin-bottom: 30px;
+}
+#banner form div.pass{
+	width: 311px;
+	height: 36px;
+	border: 1px #e2e2e2 solid;
+	margin-left: 18px;
+	margin-bottom: 30px;
+}
+#banner form div.user i{
+	width: 50px;
+	height: 36px;
+	background:url(../img/icon_sig_reg.png) no-repeat -170px -30px;
+}
+#banner form div.pass i{
+	width: 50px;
+	height: 36px;
+	background:url(../img/icon_sig_reg.png) no-repeat -170px -60px;
+}
+#banner form input{
+	width: 259px;
+	height: 36px;
+	text-align: left;
+	border: 0;
+}
+#banner form #tip{
+	position: absolute;
+	top: 205px;
+	left: 40px;
+	display: none;
+	padding-left: 20px;
+	height: 15px;
+	background: url(../img/icon_sig_reg.png) no-repeat -186px -99px;
+}
+#banner form div.code{
+	display: none;
+	margin-left: 18px;
+	margin-bottom: 30px;	
+	width: 311px;
+	height: 36px;	
+}
+#banner form div.code input{
+	width: 200px;
+	height: 36px;
+	border: 1px #e2e2e2 solid;	
+	margin: 0;	
+}
+#banner form div.code a{
+	height: 36px;
+	width: 100px;
+	background: #000;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+#banner form div.code a:hover{
+	text-decoration: none;
+}
+#banner form p.forget{
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 4px;
+}
+#banner form p.forget a{
+	text-decoration: underline;
+}
+#banner form #login{
+	display: block;
+	width: 313px;
+	height: 38px;
+	line-height: 38px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	background-color: #E1373A;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;	
+}
+#banner form p.friend{
+	text-align: center;
+}
+#banner form ul{
+	margin-top:20px;
+	margin-left: 18px;
+}
+#banner form ul li a{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin: 0 14px;
+}
+#banner form ul li.we_chat a{
+	background: url(../img/icon_sig_reg.png) -37px -21px;
+}
+#banner form ul li.alipy a{
+	background: url(../img/icon_sig_reg.png) -74px -21px;
+}
+#banner form ul li.QQ a{
+	background: url(../img/icon_sig_reg.png) -111px -21px;
+}
+#banner form ul li.sina a{
+	background: url(../img/icon_sig_reg.png) -37px -57px;
+}
+#banner form ul li.rr a{
+	background: url(../img/icon_sig_reg.png) -74px -57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	line-height: 56px;
+	text-align: center;
+}
+
+

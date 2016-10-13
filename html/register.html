@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优购时尚商城_用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/setCookie.js" ></script>
+		<script type="text/javascript" src="../js/header.js" ></script>
+		<script src="../js/register.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="w">
+				<ul class="l left">
+					<li class="l" style="background: #fff;"><span><a href="../index.html">时尚商城</a></span></li>
+					<li class="l last"><span><em></em>手机优购 <i></i></span><div class="app"><img src="../img/app-rqcode.jpg.png"/><p>下载安装 <b> 优购客户端</b></p></div></li>
+				</ul>
+				<ul class="r right">
+					<li class="l first par">
+						<a class="first" href="#">我的优购<i></i></a>
+						<p><a href="#">我的收藏</a></p>
+					</li>
+					<li class="l" style="width:90px;"><a href="#">我的订单</a></li>
+					<li class="l notice par">
+						<a class="first" href="#">公告<i></i></a>
+						<ul>
+							<li><a href="#">运动新风尚 新品5折起</a></li>
+							<li><a href="#">摩登男装 秋冬大促 1折起</a></li>
+							<li><a href="#">潮靴秀美腿 价比11.11</a></li>
+							<li><a href="#">女装初冬热促 爆款2折起</a></li>
+							<li><a href="#">库房发货时间调整说明</a></li>
+						</ul>
+					</li>
+					<li class="l more par">
+						<a class="first" href="#">更多<i></i></a>
+						<p>
+							<a href="#">收藏优购</a><br /><a href="#">帮助</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="r center">
+					<li class="l login_btn"><a href="login.html">登录</a></li>
+					<li class="l register_btn"><a href="register.html">注册</a></li>
+				</ul>				
+			</div>
+		</div>
+		<div id="banner">
+			<a class="mark" href="#"></a>
+			<div class="w">
+				<form class="r">
+					<div class="register">
+						<a href="login.html">登录</a>
+						<a class="current" href="register.html">注册</a>
+					</div>
+					<div class="user wrap">
+						<label><select>
+							<option class="mobile">手机号</option>
+							<option class="email">邮箱</option>
+						</select><input type="text" name="user" id="user" placeholder=" 请输入您的手机号码" /></label>	
+						<p class="tips">请输入手机号码</p>
+					</div>
+					<div class="verify1 wrap">
+						<label><span>验证码</span><input type="text" id="verify1"/></label>
+						<p class="tips">请输入手机号码</p>
+					</div>
+					<a id="verify-pic" href="javascript:;">wwww</a>
+					<div class="verify2 wrap">
+						<label><span id="">短信验证码</span><input type="text" id="verify2" /></label>
+						<p class="tips">请输入手机号码</p>
+					</div>
+					<a id="getVerify" href="javascript:;">获取验证码</a>
+					<div class="pass wrap">
+						<label><span class="pass">密码</span><input type="password" placeholder="字母、数字、符号均可，6-25个字符" id="password1" /></label>
+						<p class="tips">请输入手机号码</p>
+					</div>
+					<div class="aPass wrap">
+						<label><span class="pass">确认密码</span><input type="password" id="password2" /></label>
+						<p class="tips">请输入手机号码</p>
+					</div>
+					<label><input type="checkbox" checked="checked"  class="checked"/> 我已阅读并同意</label><a href="#">《优购会员注册协议》</a>
+					<a id="register" href="javascript:;">确认并注册</a>
+				</form>				
+			</div>
+		</div>
+		<div id="footer" class="w">
+			<p>Copyright © 2011-2014 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证：粤 B2-20090203</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单提交中心_邮购网上鞋城</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shopcart.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/pay.css"/>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/header.js" ></script>
+		<script type="text/javascript" src="../js/list.js" ></script>
+		<script type="text/javascript" src="../js/setCookie.js" ></script>
+		<script type="text/javascript" src="../js/pay.js" ></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="w">
+				<ul class="l left">
+					<li class="l"><span><a href="../index.html">时尚商城</a></span></li>
+					<li class="l last"><span><em></em>手机优购 <i></i></span><div class="app"><img src="../img/app-rqcode.jpg.png"/><p>下载安装 <b> 优购客户端</b></p></div></li>
+				</ul>
+				<ul class="r right">
+					<li class="l first par">
+						<a class="first" href="#">我的优购<i></i></a>
+						<p><a href="#">我的收藏</a></p>
+					</li>
+					<li class="l" style="width:90px;"><a href="#">我的订单</a></li>
+					<li class="l notice par">
+						<a class="first" href="#">公告<i></i></a>
+						<ul>
+							<li><a href="#">G20峰会杭州地区配送延迟公告</a></li>
+							<li><a href="#">优红利官方微信</a></li>
+							<li><a href="#">优红利QQ群375298444</a></li>
+							<li><a href="#">关于跨境商品征税新政策调整</a></li>
+							<li><a href="#">提醒会员谨防诈骗电话</a></li>
+						</ul>
+					</li>
+					<li class="l more par">
+						<a class="first" href="#">更多<i></i></a>
+						<p>
+							<a href="#">收藏优购</a><br /><a href="#">帮助</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="r center">
+					<li class="l login_btn"><a href="javascript:;">登录</a></li>
+					<li class="l register_btn"><a href="javascript:;">注册</a></li>
+				</ul>				
+			</div>
+		</div>	
+		<div id="logo" class="w">
+			<h1 class="l"><a href="../index.html"></a></h1>
+			<ul class="r">
+				<li class="l">我的购物车<em></em><i></i></li>
+				<li class="l cur">提交订单中心<em></em><i></i></li>
+				<li class="l">成功提交订单<em></em><i></i></li>
+			</ul>
+		</div>	
+		<div id="address" class="w">
+			<div class="title">
+				<h3 class="l">请填写您的收货地址</h3>
+				<a class="l return" href="shopcart.html">返回购物车</a>
+				<a class="r" href="javascript:;">管理收货地址</a>
+			</div>
+			<div class="address">
+				<dl class="name">
+					<dt class="l">收货人姓名<i>*</i></dt>
+					<dd class="l"><input type="text" class="name"><span class="tip">（请您使用真实姓名，不能全部是数字，不能包含特殊符号（括号、井号等））</span></dd>
+				</dl>			
+				<dl class="address">
+					<dt class="l">收货人地址<i>*</i></dt>
+					<dd class="l">
+						<p>
+							<select class="pro">
+								<option>请选择省份</option>
+								<option value="1">河北</option>
+								<option value="1">北京</option>
+							</select>
+							<select class="city">
+								<option>请选择市区</option>
+								<option value="1">北京</option>
+								<option value="1">北京</option>
+							</select>
+							<select class="county">
+								<option>请选择县区</option>
+								<option value="1">昌平</option>
+								<option value="1">石景山</option>
+							</select>
+							<span class="post">邮政编码：<input type="text" class="post">（有助于快速确定送货地址）<em>102200</em><a style="display: none;" href="javascript:;">使用此邮编</a></span>
+						</p>
+						<p class="pro">
+							<span class="pro"></span>
+							<span class="city"></span>
+							<span class="county"></span>
+							<input class="address" type="text">
+							<span class="tip">（请填写详细地址，确保准确送达）</span>
+						</p>
+					</dd>
+				</dl>			
+				<dl class="mobile">
+					<dt class="l">收货人手机<i>*</i></dt>
+					<dd class="l"><input class="mobile" type="text"><span class="tip" style="display: none; color: #f60; font-weight: 600;">格式不正确</span></dd>
+				</dl>			
+				<dl>
+					<dt class="l">收货时间：<i>*</i></dt>
+					<dd class="l">
+						<select class="send">
+							<option>只工作日送货（双休日、节假日不送）</option>
+							<option>工作日双休日节假日均可送货</option>
+							<option>双休日节假日送货（工作日不送）</option>
+						</select>
+						<span class="tip">（送货时间仅供参考，快递公司会尽量满足您的要求）</span>
+					</dd>
+				</dl>			
+			</div>
+		</div>
+		<div id="pay_online" class="w">
+			<div class="title">
+				<a class="r" href="javascript:;">查看银行限额及付款帮助</a>
+			</div>	
+			<div class="bank">
+				<p><strong>在线支付 </strong> <em> (满99元在线支付免运费)</em></p>
+				<div class="wrap-bank">
+					<div class="btn">
+						<a class="l first cur" href="javascript:;">网银支付</a>
+						<a class="l" href="javascript:;">信用卡支付</a>
+						<a class="l" href="javascript:;">支付平台</a>
+					</div>
+					<div class="banklist">
+						<div class="img cur">
+							<img src="../img/2016-08-30_204126.png"/>
+						</div>
+						<div class="img">
+							<img src="../img/2016-08-30_204054.png"/>
+						</div>
+						<div class="img">
+							<h3 class="l">其他便捷支付方式</h3>
+							<a class="l zfb" href="javascript:;"><input name="pay" class="l" type="radio"></a>
+							<a class="l wx" href="javascript:;"><input name="pay" class="l" type="radio"></a>
+							<a class="l cft" href="javascript:;"><input name="pay" class="l" type="radio"></a>
+							<a class="l kq" href="javascript:;"><input name="pay" class="l" type="radio"></a>
+							<a class="l" href="javascript:;"><input name="pay" class="l" type="radio"></a>
+					</div>
+					</div>
+				</div>				
+			</div>
+			</div>
+		<div class="cart w">
+			<table class="cart w">
+				<tr>
+					<th width="110" style="text-align: left;"><i class="all"></i>全选</th>
+					<th>商品名称</th>
+					<th width="110">颜色尺码</th>
+					<th width="110">单价</th>
+					<th width="110">数量</th>
+					<th width="110">小计（元）</th>
+				</tr>
+				<tr class="last">
+				</tr>
+			</table>
+			<div class="pay">
+				<a href="list.html" class="shop-link l">继续购物</a>
+				<div class="checkout r">
+					<span class="l"><b>总计（免运费）：</b><em>¥</em><strong id="all-cost">0</strong></span>
+					<a href="#" class="checked r">确认付款</a>
+				</div>
+			</div>
+		</div>		
+		<div id="safe" class="w">
+			<p>购物保障：<i class="zhp"></i>100%正品<i class="tui"></i>10天退换货<i class="bu"></i>10天补差价</p>
+			<p>优惠券/礼品卡在下一步使用</p>
+			<p><a href="#">帮助我们改进购物流程</a></p>
+		</div>
+		<div class="footer w">
+			<p class="footer">Copyright © 2011-2014 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证：粤 B2-20090203</p>
+		</div>	
+		<div id="tip">
+			<h3>支付成功！</h3>
+			<p><span>5</span>秒后返回首页</p>
+			<a href="../index.html" class="r">返回首页</a>
+		</div>
+	</body>
+</html>

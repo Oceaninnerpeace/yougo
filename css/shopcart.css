@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+.w{
+	width: 990px;
+	margin: 0 auto;
+}
+
+#logo{
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#logo h1{
+	width: 355px;
+    height: 50px;
+    background: url(../img/logo.jpg) no-repeat left top;
+}
+#logo h1 a{
+	display: block;
+	height: 50px;
+	width: 166px;
+}
+#logo ul{
+	margin-top: 20px;
+	width: 600px;
+    height: 20px;
+    line-height: 20px;
+    background: #e8e8e8;
+    overflow: hidden;
+    position: relative;
+}
+#logo ul li{
+	width: 200px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+#logo ul li.cur{
+	color: #fff;
+    background: #f90;
+    z-index: 1;
+}
+#logo ul li em{
+	right: -12px;
+    top: -2px;
+    border: 12px dashed transparent;
+    border-left: 12px solid #fff;
+    border-right: 0;
+    position: absolute;
+}
+#logo ul li i{
+	right: -9px;
+    top: 0;
+    border: 10px dashed transparent;
+    border-left: 10px solid #e8e8e8;
+    border-right: 0;
+    position: absolute;
+}
+#logo ul li.cur i{
+	border-color:  transparent #f90;
+}
+/*===========table============*/
+table.cart{
+	text-align: center;
+	overflow: hidden;
+	border-collapse: collapse;
+	border: 1px solid #eee;
+}
+table.cart i{
+	margin:0 2px 0 13px;
+	display: block;
+    background: url(../img/resprite12.png) -17px -197px no-repeat;
+    height: 15px;
+    padding: 0 0 0 15px;
+    cursor: pointer;
+    float: left;
+}
+table.cart i.cur{
+	background-position: -34px -197px;
+}
+table.cart th{
+	color: #aaa;
+	height: 42px;
+	border-bottom: 1px solid #eee;
+	font-weight: 100;
+}
+table.cart tr td{
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;	
+}
+table.cart tr a.img{
+	padding: 5px;
+	border: 1px solid #e6e6e6;
+}
+table.cart tr img{
+	width: 60px;
+	height: 60px;
+}
+table.cart tr a.title{
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+}
+table.cart tr input{
+	width: 28px;
+    height: 22px;
+    font: 12px/22px Arial,Helvetica,sans-serif;
+    text-align: center;
+    border: 1px solid #c6c6c6;
+    margin: 0;
+    border-left: 0;
+    border-right: 0;
+}
+table.cart tr a.jian{
+	margin-left: 17px;
+    height: 22px;
+    width: 22px;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+table.cart tr a.jia{
+    height: 22px;
+    width: 22px;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;	
+}
+table.cart tr a:hover{
+	text-decoration: none;
+}
+table.cart tr b{
+	color: #EE0011;
+}
+table.cart tr p{
+	text-align: left;
+}
+table.cart tr.last span{
+	margin-right: 30px;
+}
+table.cart tr.last a{
+	margin-right: 30px;
+}
+div.cart div.pay{
+	line-height: 54px;
+	height: 54px;
+    background: #eee;
+    overflow: hidden;
+}
+div.cart div.pay a.shop-link{
+	width: 126px;
+    height: 43px;
+    display: inline-block;
+    font: 16px/43px '';
+    text-align: center;
+    margin: 6px 0 0 35px;
+    background: url(../img/shopcart-sprite-v4.png) no-repeat -19px -108px;  
+}
+div.cart div.pay a.clear{
+	margin-left: 20px;
+	color: #3366CC;
+}
+div.cart div.pay div.checkout span em{
+	font-size: 16px;
+	font-weight: bold;
+}
+div.cart div.pay div.checkout span strong{
+	font-size: 20px;
+	color: #EE0011;
+}
+div.cart div.pay div.checkout a.checked{
+	background: #ff5000;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 54px;
+    margin-left: 50px;
+    width: 129px;
+    height: 54px;
+}
+div.cart a:hover{
+	text-decoration: none;
+}
+/*=============safe=================*/
+#safe{
+	margin-top: 15px;
+	overflow: hidden;
+	text-align: right;
+	line-height: 22px;
+	color:#a9a9a9;
+}
+#safe a{
+	color: #A9A9A9;
+}
+#safe a:hover{
+	color: #EE0011;
+	text-decoration: none;
+}
+#safe i{
+	background: url(../img/shopcart-sprite-v4.png) no-repeat 0 0;
+	display: inline-block;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+#safe i.tui{
+	background-position: 0 -18px;
+}
+#safe i.bu{
+	background-position: 0 -38px;
+}
+/*=============anymore============*/
+#anymore{
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#anymore div.goods{
+	margin-top: 10px;
+	border: 1px #eaeaea solid;
+	overflow: hidden;
+	padding-top: 35px;
+}
+#anymore div.goods dl{
+	width: 160px;
+	padding: 0 15px;
+	float: left;
+	margin: 0 5px 20px 0;
+}
+#anymore div.goods dl dt{
+	overflow: hidden;
+	height: 160px;
+	width: 160px;
+}
+#anymore div.goods dl dt img{
+	widows: 160px;
+	height: 160px;
+	cursor: pointer;
+}
+#anymore div.goods dl dd p{
+	overflow: hidden;
+	width: 100%;
+}
+#anymore div.goods dl dd p a{
+	line-height: 22px;
+}
+#anymore div.goods dl dd p a:hover{
+	text-decoration: none;
+}
+#anymore div.goods dl dd span em{
+	font-size: 21px;
+	color: #EE0011;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============footer=======================*/
+div.footer{
+	border-top: 1px solid #d9d9d9;
+    padding-top: 10px;
+    text-align: center;
+    height: 60px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
